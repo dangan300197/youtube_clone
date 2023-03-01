@@ -1,5 +1,4 @@
-html,
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -35,7 +34,7 @@ a {
 }
 
 .react-player {
-  height: 77vh !important;
+  height: 76vh !important;
   width: 100% !important;
 }
 
@@ -50,7 +49,7 @@ a {
   text-transform: capitalize;
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
   cursor:pointer;
   background: transparent;
   outline: none;
