@@ -38,7 +38,11 @@ function VideoCard({
           }}
         />
       </Link>
-      <CardContent sx={{ backgroundColor: "", height: "90px" }}>
+      <CardContent
+        sx={{
+          height: "90px",
+        }}
+      >
         <Link to={videoId ? `/video/${videoId}` : demoVideoUrl}>
           <div className="video-car-title">
             {" "}

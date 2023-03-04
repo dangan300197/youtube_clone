@@ -7,9 +7,13 @@
      -webkit-line-clamp: 2; /* number of lines to show */
              line-clamp: 2; 
      -webkit-box-orient: vertical;
+     height: 35px;
 }
 .video-card-channel-name{
         font-weight: bold;
         margin-top: 20px;
         font-size: 15px;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
 }
